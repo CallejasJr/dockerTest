@@ -43,4 +43,4 @@ RUN pip install -r /opt/config/requirements.txt
 
 # El punto de entrada es el ejecutable que va a correr el comando de la linea siguiente, que apunta hacía el archivo principal de nuestro script
 ENTRYPOINT [ "python3" ]
-CMD [ "src/main.py" ]
+CMD [ "src/mainFlask.py" ]
